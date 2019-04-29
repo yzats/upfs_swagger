@@ -11797,7 +11797,7 @@
                     "description": "Type-1 UUID (in hex form) which represents the time when a comment was created"
                 } 
             }
-        },
+        }
         
 
     }
