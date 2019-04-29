@@ -11773,6 +11773,27 @@
                     "description": "Bearer token."
                 }
             }
+        },
+        "signup_user_metadata": {
+            "required": [
+                "comment_id", 
+                "user_id", 
+                "created_at"
+            ], 
+            "properties": {
+                "created_at": {
+                    "type": "string", 
+                    "description": "Type-1 UUID (in hex form) which represents the time when a comment was created"
+                }, 
+                "comment_id": {
+                    "type": "string", 
+                    "description": "Comment ID of the comment"
+                }, 
+                "user_id": {
+                    "type": "integer", 
+                    "description": "User ID of the user who created the comment"
+                }
+            }
         }
     }
    
